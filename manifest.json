@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Tiny QRCode Builder",
+  "version": "1.0",
+  "description": "Covert url to QR code.",
+  "homepage_url": "https://github.com/webpatch/Tiny-QRCode-Builder",
+  "icons": {
+    "48": "icons/qr-code.svg",
+    "96": "icons/qr-code.svg"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/qr-code.svg",
+    "default_title": "Tiny QRCode Builder",
+    "default_popup": "popup/qr-code.html"
+  }
+}
